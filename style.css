@@ -20,6 +20,7 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 .header{
     position: fixed;
@@ -46,6 +47,11 @@ body{
 .navbar-list{
     display:none;
 }
+.offcanvas{
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
 
 .offcanvas .offcanvas-body .ul{
     flex-wrap: wrap;
@@ -65,6 +71,7 @@ body{
     height: 50vh;
 }
 
+
 @media screen and (max-width: 750px){
     .links{
         display: none;
@@ -80,9 +87,15 @@ body{
     #home h1{
         font-size: 1.5rem;
     }
+  
 }
 @media screen and (min-width: 900px){
     #home h1{
         font-size: 2.5rem;
     }
 }
+
+/* 
+  @media (max-width: 276px) {
+  
+  } */
