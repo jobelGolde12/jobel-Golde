@@ -43,6 +43,7 @@ body{
 }
 #about{
     background: var(--about-bg);
+    height: auto;
 }
 .navbar-list{
     display:none;
@@ -70,7 +71,11 @@ body{
 .footer{
     height: 50vh;
 }
-
+/* width="800px" height="400px" */
+/* #myChart{
+width: 800px;
+height: 400px;
+} */
 
 @media screen and (max-width: 750px){
     .links{
@@ -87,6 +92,10 @@ body{
     #home h1{
         font-size: 1.5rem;
     }
+    /* #myChart{
+        width: 400px;
+        height: 200px;
+    } */
   
 }
 @media screen and (min-width: 900px){
