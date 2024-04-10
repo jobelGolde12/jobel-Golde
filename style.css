@@ -92,10 +92,11 @@ height: 400px;
     #home h1{
         font-size: 1.5rem;
     }
-    /* #myChart{
+    #myChart{
         width: 400px;
         height: 200px;
-    } */
+        
+    }
   
 }
 @media screen and (min-width: 900px){
