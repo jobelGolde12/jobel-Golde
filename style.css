@@ -123,6 +123,11 @@ height: 400px;
     transform: rotate(0deg);
     transition: 1s;
   }
+  @media screen and (max-width: 800px){
+    .hero-img{
+      display: none;
+    }
+  }
   .img1{
     left: -100%;
     top: 10%;
@@ -262,4 +267,21 @@ height: 400px;
   }
   .card .php{
     transform: translateY(40%);
+  }
+  .flex-container{
+    flex-wrap: wrap;
+  }
+
+ 
+  
+  @media (max-width: 768px) {
+    .card {
+      left: 40%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      left: 40%;
+    }
   }
