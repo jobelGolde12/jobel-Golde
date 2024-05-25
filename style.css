@@ -71,6 +71,7 @@ body{
 }
 .footer{
     height: 50vh;
+    margin-top: 10rem;
 }
 /* width="800px" height="400px" */
 /* #myChart{
@@ -99,7 +100,7 @@ height: 400px;
         
     }
     .footer{
-      margin-top: 8rem;
+      margin-top: 15rem;
     }
   
 }
@@ -163,22 +164,26 @@ height: 400px;
   @keyframes animateImg1{
     from{
         left: -100%;
+        opacity: 1;
         
     }
     to{
         left: 0;
         transform: rotate(30deg);
+        opacity: 1;
 
     }
   }
   @keyframes animateImg2{
     from{
         right: -100%;
+        opacity: 1;
         
     }
     to{
         right: 0;
         transform: rotate(-30deg);
+        opacity: 1;
 
     }
   }
@@ -309,7 +314,7 @@ height: 400px;
  #projects .project-image-container{ 
   position: relative;
   width: 80%;
-  aspect-ratio: 16 / 11;
+  aspect-ratio: 15 / 10;
   overflow: hidden;
  }
  .project-image-container img{
@@ -330,6 +335,6 @@ height: 400px;
 }
 @media screen and (max-width: 800){
   #projects{
-    gap: 2rem;
+    gap: 5rem;
   }
 }
